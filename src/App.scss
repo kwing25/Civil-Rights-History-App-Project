@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$color: #0a1737;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Fjalla One', sans-serif;
+  color: scale-color($color, $lightness: 10%);
+}
+
+
+// font-family: 'Archivo Black', sans-serif;
+// font-family: 'Arvo', serif;
+// font-family: 'Fjalla One', sans-serif;
+// font-family: 'Hind', sans-serif;
+// font-family: 'Karla', sans-serif;
+// font-family: 'Lato', sans-serif;
+// font-family: 'Libre Baskerville', serif;
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Quattrocento', serif;
+// font-family: 'Quattrocento Sans', sans-serif;
